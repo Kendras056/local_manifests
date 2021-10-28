@@ -5,19 +5,10 @@
           fetch="https://github.com/Kendras056" />
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
-  <remote name="bananadroid"
-          fetch="https://github.com/bananadroid" />
 
   <!-- Sync trees -->
         <project path="device/asus/X00T" name="device_asus_X00T" remote="Kendras056" revision="banana" clone-depth="1" />
         <project path="vendor/asus" name="vendor_asus_X00T" remote="Kendras056" revision="banana" clone-depth="1" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="master" clone-depth="1" />
-
-        <remove-project name="hw_media" />
-        <remove-project name="hw_audio" />
-        <remove-project name="hw_display" />
-        <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="bananadroid" revision="11-caf-msm8998" clone-depth="1" />
-        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="bananadroid" revision="11-caf-msm8998" clone-depth="1" />
-        <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="bananadroid" revision="11-caf-msm8998" clone-depth="1" />
 
 </manifest>
