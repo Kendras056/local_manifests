@@ -6,6 +6,8 @@
         fetch="https://github.com/Kendras056" />
         <remote name="Kneba"
         fetch="https://github.com/Kneba" />
+        <remote name="LineageOS"
+        fetch="https://github.com/LineageOS" />
 
         <!-- Sync trees -->
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Kendras056" revision="11" />
@@ -17,8 +19,8 @@
         <remove-project name="android_hardware_qcom_audio" />
         <remove-project name="android_hardware_qcom_display" />
         <remove-project name="android_hardware_qcom_media" />
-        <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="lineage" revision="lineage-18.1-caf-msm8998" />
-        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="lineage" revision="lineage-18.1-caf-msm8998" />
-        <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="lineage" revision="lineage-18.1-caf-msm8998" />
+        <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="LineageOS" revision="lineage-18.1-caf-msm8998" />
+        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="LineageOS" revision="lineage-18.1-caf-msm8998" />
+        <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="LineageOS" revision="lineage-18.1-caf-msm8998" />
 
 </manifest>
