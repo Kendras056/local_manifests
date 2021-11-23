@@ -13,8 +13,4 @@
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="Kendras056" revision="11" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Kendras056" revision="master" />
 
-        <!-- Remove Projects >
-        <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
-        <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-
 </manifest>
