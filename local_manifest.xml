@@ -2,14 +2,12 @@
 
 <manifest>
 
-        <remote name="pkm774"
-        fetch="https://github.com/pkm774" />
+        <remote name="travarilo"
+        fetch="https://github.com/travarilo" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="pkm774" revision="11" />
-        <project path="vendor/asus" name="vendor_asus_X00TD" remote="pkm774" revision="11" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="pkm774" revision="master" />
-
-        <remove-project name="device/asus/X00TD/vendorsetup.sh" />
+        <project path="device/asus/X00T" name="device_asus_X00T" remote="travarilo" revision="lineage-17.1" />
+        <project path="vendor/asus" name="proprietary_vendor_asus" remote="travarilo" revision="lineage-17.1" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="travarilo" revision="master" />
 
 </manifest>
