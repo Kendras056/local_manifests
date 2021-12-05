@@ -8,22 +8,14 @@
         fetch="https://github.com/Kneba" />
         <remote name="kdrag0n"
         fetch="https://github.com/kdrag0n" />
-        <remote name="LineageOS"
-        fetch="https://github.com/LineageOS" />
 
         <!-- Sync trees -->
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Kendras056" revision="c11" />
         <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="Kendras056" revision="c11" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="Kendras056" revision="11.0" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Kneba" revision="tom" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Kneba" revision="r38" />
 
         <!-- Proton-Clang v13.0.0 Toolchain -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
-
-        <!-- Remove -->
-        <remove-project name="android_hardware_qcom_audio" />
-
-        <!-- Clone Hals -->
-        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="LineageOS" revision="lineage-18.1-caf-msm8998" />
 
 </manifest>
