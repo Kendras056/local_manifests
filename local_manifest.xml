@@ -15,6 +15,6 @@
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="Kendras056" revision="11.0" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Kneba" revision="main" />
 
-        <remove-project name="fonts/ArbutusSlab-Regular.ttf" />
+        <remove-project name="prebuilt/fonts/arbutus-slab/ArbutusSlab-Regular.ttf" />
 
 </manifest>
