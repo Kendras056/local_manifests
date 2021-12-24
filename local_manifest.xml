@@ -20,11 +20,14 @@
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Kneba" revision="bpfnlv" />
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
 
+        <remove-project name="android_hardware_qcom_audio" />
+        <remove-project name="android_hardware_qcom_media" />
+        <remove-project name="android_hardware_qcom_display" />
+        <remove-project name="android_device_qcom_common" />
         <project path="device/qcom/sepolicy-legacy-um" name="xd_device_qcom_sepolicy-legacy-um" remote="xdroid-CAF" revision="eleven"/>
         <project name="hw_media" path="hardware/qcom-caf/msm8998/media" remote="xyz-prjkt" revision="eleven_caf_msm8998" />
         <project name="hw_audio" path="hardware/qcom-caf/msm8998/audio" remote="xyz-prjkt" revision="eleven_caf_msm8998" />
         <project name="hw_display" path="hardware/qcom-caf/msm8998/display" remote="xyz-prjkt" revision="eleven_caf_msm8998" />
-        <project name="android_device_qcom_common" path="device/qcom/common" remote="project404" revision="rippa" />
-        <project name="proprietary_vendor_qcom_common" path="vendor/qcom/common" remote="project404" revision="rippa" />
+        <project name="android_device_qcom_common" path="device/qcom/common" remote="xdroid-CAF" revision="eleven" />
 
 </manifest>
