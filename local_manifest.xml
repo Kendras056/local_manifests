@@ -10,8 +10,6 @@
         fetch="https://github.com/kdrag0n" />
 	<remote  name="xdroid-CAF"
         fetch="https://github.com/xdroid-CAF" />
-	<remote  name="xyz-prjkt"
-        fetch="https://github.com/xyz-prjkt" />
 
         <!-- Sync trees -->
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Kendras056" revision="11" />
@@ -21,7 +19,6 @@
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
 
         <remove-project name="android_device_qcom_common" />
-        <project path="device/qcom/sepolicy-legacy-um" name="xd_device_qcom_sepolicy-legacy-um" remote="xdroid-CAF" revision="eleven"/>
         <project name="xd_device_qcom_common" path="device/qcom/common" remote="xdroid-CAF" revision="eleven" />
 
 </manifest>
