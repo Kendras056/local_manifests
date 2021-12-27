@@ -8,8 +8,8 @@
         fetch="https://github.com/Kneba" />
 	<remote  name="clang"
         fetch="https://github.com/kdrag0n" />
-	<remote  name="xdroid-CAF"
-        fetch="https://github.com/xdroid-CAF" />
+	<remote  name="ArrowOS"
+        fetch="https://github.com/ArrowOS" />
 
         <!-- Sync trees -->
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Kendras056" revision="11" />
@@ -18,7 +18,6 @@
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Kneba" revision="bpfnlv" />
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
 
-        <project path="device/qcom/sepolicy-legacy-um" name="xd_device_qcom_sepolicy-legacy-um" remote="xdroid-CAF" revision="eleven"/>
-        <project path="device/qcom/sepolicy/vndr" name="xd_device_qcom_sepolicy_vndr" remote="xdroid-CAF" revision="eleven"/>
+        <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="ArrowOS" revision="eleven"/>
 
 </manifest>
