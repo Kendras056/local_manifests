@@ -6,8 +6,6 @@
         fetch="https://github.com/Kendras056" />
         <remote name="AnGgIt88"
         fetch="https://github.com/AnGgIt88" />
-        <remote name="kdrag0n"
-        fetch="https://github.com/kdrag0n" />
 
         <!-- Sync trees -->
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Kendras056" revision="11" />
