@@ -14,6 +14,10 @@
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="Kendras056" revision="11" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm636" remote="Kendras056" revision="master" />
 
+        <!-- Remove -->
+        <remove-project name="android_device_qcom_sepolicy-legacy-um" />
+
+        <!-- Tree -->
         <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="Project-404-Tulip" revision="rippa" />
 
 </manifest>
