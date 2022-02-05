@@ -5,8 +5,8 @@
   <remote name="Kendras056"
         fetch="https://github.com/Kendras056" />
 
-  <remote name="finix"
-        fetch="https://github.com/AnGgIt88" />
+  <remote name="Project-404-Tulip"
+        fetch="https://github.com/Project-404-Tulip" />
 
         <!-- Sync trees -->
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Kendras056" revision="11" />
@@ -14,6 +14,6 @@
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="Kendras056" revision="11" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm636" remote="Kendras056" revision="master" />
 
-        <project path="device/qcom/sepolicy-legacy-um" name="xd_device_qcom_sepolicy-legacy-um" remote="finix" revision="eleven" />
+        <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="Project-404-Tulip" revision="rippa" />
 
 </manifest>
