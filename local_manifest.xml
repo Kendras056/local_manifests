@@ -8,11 +8,14 @@
   <remote name="PixelExperience"
         fetch="https://github.com/PixelExperience" />
 
+  <remote name="saurabhchardereal"
+        fetch="https://github.com/saurabhchardereal" />
+
         <!-- Sync trees -->
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Kendras056" revision="11" />
         <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="Kendras056" revision="11" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="Kendras056" revision="11" />
-        <project path="kernel/asus/sdm660" name="caf_kernel_asus_sdm660" remote="Kendras056" revision="caf-lv" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="saurabhchardereal" revision="kernel.lnx.4.4.r44-rel" />
 
         <!-- Sync hals -->
         <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="PixelExperience" revision="eleven" />
