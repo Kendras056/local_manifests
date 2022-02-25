@@ -13,4 +13,12 @@
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="Kendras056" revision="12" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Kneba" revision="reqlv" />
 
+        <!-- Remove -->
+        <remove-project name="android_hardware_qcom_media" />
+        <remove-project name="android_hardware_qcom_display" />
+
+        <!-- Clone hals -->
+        <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="pkm774" revision="video-userspace.lnx.2.10.r10-rel" />
+        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="pkm774" revision="display.lnx.3.4.r3-rel" />
+
 </manifest>
