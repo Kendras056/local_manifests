@@ -4,22 +4,26 @@
 
         <remote name="Kendras056"
         fetch="https://github.com/Kendras056" />
-        <remote name="Kneba"
-        fetch="https://github.com/Kneba" />
+        <remote name="ATBlastDon"
+        fetch="https://github.com/ATBlastDon" />
+        <remote name="PixelExperience"
+        fetch="https://github.com/PixelExperience" />
 
         <!-- Sync trees -->
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Kendras056" revision="12" />
         <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="Kendras056" revision="12" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="Kendras056" revision="12" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Kneba" revision="reqlv" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636-1" remote="Kendras056" revision="wizard" />
 
         <!-- Sync Hals -->
-        <remove-project name="LineageOS/hardware/qcom-caf/msm8998/display" />
-        <remove-project name="LineageOS/hardware/qcom-caf/msm8998/media" />
-        <remove-project name="LineageOS/hardware/qcom-caf/msm8998/audio" />
-        <project path="hardware/qcom-caf/msm8998/display" name="PixelExperience/hardware_qcom-caf_msm8998_display" remote="github" revision="twelve" />
-        <project path="hardware/qcom-caf/msm8998/media" name="PixelExperience/hardware_qcom-caf_msm8998_media" remote="github" revision="twelve" />
-        <project path="hardware/qcom-caf/msm8998/audio" name="PixelExperience/hardware_qcom-caf_msm8998_audio" remote="github" revision="twelve" />
+        <remove-project name="hardware/qcom-caf/msm8998/display" />
+        <remove-project name="hardware/qcom-caf/msm8998/media" />
+        <remove-project name="hardware/qcom-caf/msm8998/audio" />
+        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="PixelExperience" revision="twelve" />
+        <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="PixelExperience" revision="twelve" />
+        <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="PixelExperience" revision="twelve" />
 
+        <!-- Google Camera Go -->
+        <project path="packages/apps/GoogleCameraGoEdition" name="packages_apps_GoogleCameraGoEdition" remote="ATBlastDon" revision="eleven" />
 
 </manifest>
