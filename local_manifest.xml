@@ -8,9 +8,9 @@
         <!-- remote name="ArrowOS"
         fetch="https://github.com/ArrowOS" /-->
 
- <!-- remote name="silicon"
+ <remote name="silicon"
 	 fetch="https://github.com/AOSP-Silicon/"
-	 revision="12" /-->
+	 revision="12" />
 
  <remote name="gms"
 	 fetch="https://gitlab.com/GhostMaster69-dev"
