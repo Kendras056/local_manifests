@@ -20,9 +20,6 @@
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="asus" revision="lineage-19.1" />
 
         <!-- Sync Hals -->
-        <remove-project name="hardware/qcom-caf/msm8998/display" />
-        <remove-project name="hardware/qcom-caf/msm8998/media" />
-        <remove-project name="hardware/qcom-caf/msm8998/audio" />
         <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="pe" revision="twelve" />
         <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="pe" revision="twelve" />
         <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="pe" revision="twelve" />
