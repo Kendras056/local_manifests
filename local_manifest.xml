@@ -10,8 +10,8 @@
         fetch="https://github.com/PixelExperience" />
         <remote name="ian"
         fetch="https://github.com/iaiaian1" />
-        <remote name="nad"
-        fetch="https://github.com/NusantaraROM-Devices" />
+        <remote name="Kendras056"
+        fetch="https://github.com/Kendras056" />
 
         <!-- Sync trees -->
         <project path="device/asus/sdm660-common" name="ct" remote="Tiktodz" revision="main" />
