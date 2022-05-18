@@ -12,6 +12,8 @@
         fetch="https://github.com/iaiaian1" />
         <remote name="nad"
         fetch="https://github.com/NusantaraROM-Devices" />
+        <remote name="nad"
+        fetch="https://github.com/NusantaraROM-Devices" />
 
         <!-- Sync trees -->
         <project path="device/asus/sdm660-common" name="ct" remote="Tiktodz" revision="main" />
@@ -36,5 +38,9 @@
         <!-- Settings bug -->
         <remove-project name="android_packages_resources_devicesettings" />
         <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="ian" revision="lineage-18.1" />
+
+        <!-- Build -->
+        <remove-project name="platform_build" />
+        <project path="build/make" name="platform_build" remote="GhostMaster69-dev" revision="12.0" />
 
 </manifest>
