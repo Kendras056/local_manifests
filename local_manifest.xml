@@ -4,12 +4,12 @@
 
   <remote name="Kendras056"
         fetch="https://github.com/Kendras056" />
-  <remote name="Tiktodz"
-        fetch="https://github.com/Tiktodz" />
+  <remote name="travarilo"
+        fetch="https://github.com/travarilo" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00T" name="device_asus_X00T" remote="Kendras056" revision="lineage-17.1" />
         <project path="vendor/asus" name="proprietary_vendor_asus-1" remote="Kendras056" revision="lineage-17.1" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Tiktodz" revision="dclick" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="travarilo" revision="master" />
 
 </manifest>
